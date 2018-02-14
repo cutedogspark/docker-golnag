@@ -7,4 +7,4 @@ build-all: last
 
 last:
 	echo "docker build -t $(IMAGE):$(VERSION)"
-	@docker build -t "$(IMAGE):$(VERSION) .
+	@docker build -t "$(IMAGE):$(VERSION)" .
