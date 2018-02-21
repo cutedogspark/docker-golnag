@@ -1,4 +1,5 @@
-FROM golang:1.9.4-alpine
+ARG  IMG_TAG=latest
+FROM golang:${IMG_TAG}
 
 MAINTAINER Ming-Jui Chen <cutedogspark@gmail.com>
 
